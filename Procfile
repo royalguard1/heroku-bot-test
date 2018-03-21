@@ -1,1 +1,1 @@
-node --harmony bot.js
+worker: node --harmony bot.js
