@@ -40,8 +40,7 @@ class ScrapeCommand extends commando.Command
 
         //codeToSearch = movieCode;
 
-        const browser = await puppeteer.launch({headless: false,
-                                                executablePath: 'C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe'});
+        const browser = await puppeteer.launch({headless: false});
         const page = await browser.newPage();
 
         console.time();
